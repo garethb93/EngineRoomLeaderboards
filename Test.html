@@ -14,32 +14,64 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 1920px;
-            width: 1080px;
+            height: 100vh;
+            width: 100vw;
         }
         .container {
             text-align: center;
-            width: 100%;
+            width: 1920px;
+            height: 1080px;
             padding: 20px;
             box-sizing: border-box;
+            background-color: #000;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
         .title {
             font-size: 48px;
             font-weight: bold;
-            margin-bottom: 40px;
+            margin-bottom: 20px;
+            color: #f1c40f;
         }
         .race-format {
             margin-bottom: 40px;
+            width: 80%;
         }
         .race-format div {
             display: flex;
             justify-content: space-between;
-            padding: 20px;
+            align-items: center;
+            padding: 10px;
             border-bottom: 1px solid #fff;
-            font-size: 36px;
+            font-size: 28px;
         }
         .race-format div:last-child {
             border-bottom: none;
+        }
+        .race-format span {
+            background-color: #f1c40f;
+            color: #000;
+            padding: 10px;
+            border-radius: 5px;
+            width: 100px;
+            text-align: center;
+        }
+        .run-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 50%;
+            margin-bottom: 40px;
+        }
+        .run-section div {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0;
+            font-size: 28px;
         }
         .code {
             background-color: #f1c40f;
@@ -47,8 +79,8 @@
             font-weight: bold;
             padding: 20px;
             border-radius: 10px;
-            margin-top: 40px;
-            font-size: 36px;
+            margin-top: 20px;
+            font-size: 28px;
         }
     </style>
 </head>
@@ -63,6 +95,15 @@
             <div><span>05</span><span>200 m FARMERS CARRY</span></div>
             <div><span>06</span><span>100 m SANDBAG LUNGES</span></div>
             <div><span>07</span><span>75 or 100 x WALL BALLS</span></div>
+        </div>
+        <div class="run-section">
+            <div><span>1KM RUN</span></div>
+            <div><span>1KM RUN</span></div>
+            <div><span>1KM RUN</span></div>
+            <div><span>1KM RUN</span></div>
+            <div><span>1KM RUN</span></div>
+            <div><span>1KM RUN</span></div>
+            <div><span>1KM RUN</span></div>
         </div>
         <div class="code">
             28 DAY TRIAL FOR £75<br>
