@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYROX Simulation Race Format</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 20px;
+            border: 2px solid #fff;
+        }
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .race-format {
+            margin-bottom: 20px;
+        }
+        .race-format div {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            border-bottom: 1px solid #fff;
+        }
+        .race-format div:last-child {
+            border-bottom: none;
+        }
+        .code {
+            background-color: #f1c40f;
+            color: #000;
+            font-weight: bold;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="title">HYROX SIMULATION RACE FORMAT</div>
+        <div class="race-format">
+            <div><span>01</span><span>1000 m SkiErg</span></div>
+            <div><span>02</span><span>50 m SLED PUSH</span></div>
+            <div><span>03</span><span>80 m BURPEE BROAD JUMPS</span></div>
+            <div><span>04</span><span>1000 m ROWING</span></div>
+            <div><span>05</span><span>200 m FARMERS CARRY</span></div>
+            <div><span>06</span><span>100 m SANDBAG LUNGES</span></div>
+            <div><span>07</span><span>75 or 100 x WALL BALLS</span></div>
+        </div>
+        <div class="code">
+            28 DAY TRIAL FOR £75<br>
+            USE CODE 'HYROX' UPON CHECKOUT<br>
+            OFFER ONLY VALID TODAY
+        </div>
+    </div>
+</body>
+</html>
